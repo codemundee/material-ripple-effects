@@ -1,6 +1,6 @@
 {
-  "name": "material-ripple-effects",
-  "version": "2.0.1",
+  "name": "@cmdjs/material-ripple-effects",
+  "version": "1.0.0",
   "description": "Material Design Ripple Effects",
   "type": "module",
   "main": "dist/index.cjs.js",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sajadevo/material-ripple.git"
+    "url": "git+https://github.com/codemundee/material-ripple-effects.git"
   },
   "keywords": [
     "material design",
@@ -25,12 +25,12 @@
     "material-ripple",
     "ripple"
   ],
-  "author": "Sajad Ahmad Nawabi",
+  "author": "Code Mun Dee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sajadevo/material-ripple-effects/issues"
+    "url": "https://github.com/codemundee/material-ripple-effects/issues"
   },
-  "homepage": "https://github.com/sajadevo/material-ripple-effects#readme",
+  "homepage": "https://github.com/codemundee/material-ripple-effects#readme",
   "devDependencies": {
     "@types/node": "^20.14.11",
     "typescript": "^5.5.3",
