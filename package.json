@@ -1,6 +1,6 @@
 {
   "name": "@cmdjs/material-ripple-effects",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Material Design Ripple Effects",
   "type": "module",
   "main": "dist/index.cjs.js",
