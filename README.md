@@ -27,7 +27,7 @@ pnpm add @cmdjs/material-ripple-effects
 import Ripple from '@cmdjs/material-ripple-effects';
 ```
 
-3. material-ripple-effects works using react events on the element. You need to initialize the Ripple() object first and then use its create() method on the element event.
+3. use in React.
 
 ```
 import React from "react";
@@ -43,4 +43,17 @@ export default function Button() {
     </>
   );
 }
+```
+
+4. use in Svelte.
+
+```
+<script lang="ts">
+import Ripple from '@cmdjs/material-ripple-effects';
+
+const ripple = new Ripple();
+</script>
+
+<button on:click={(e) => ripple.create(e, "light")}>Material Ripple</button>
+<button on:click={(e) => ripple.create(e, "dark")}>Material Ripple</button>
 ```
